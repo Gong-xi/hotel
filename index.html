@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>爱游旅途网</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/mycss.css"/>
+</head>
+<body>
+
+<section class="ind_1">
+    <div class="ind_navbar">
+        <div class="container">
+            <h1 class="ind_logo"><a href=""></a></h1>
+            <div class="ind_user" id="header_user">
+                <!-- 登录前-->
+                <a href="" id="loginModal">登录</a> | <a href="register.html">注册</a>
+                <!-- 登陆后-->
+                <!--<a href="user/user.html"><span class="icon_user"></span>韩小米</a> | <a href="" class="user_quit">退出</a>-->
+            </div>
+            <ul class="ind_nav">
+                <li class="current"><a href="index.html">首页</a></li>
+                <li><a href="zf_list.html">民宿</a></li>
+                <li><a href="zf_list.html">酒店</a></li>
+                <li><a href="news.html">特讯</a></li>
+                <li><a href="service.html">客服</a></li>
+            </ul>
+        </div>
+    </div>
+    <h2 class="ind_1_title">港澳酒店来爱游旅途网，优质体验</h2>
+    <div class="ind_search">
+        <ul class="ind_search_tab clearfloat">
+            <li class="current"><span>找酒店</span></li>
+            <li><span>找民宿</span></li>
+            <li><span>找爱游</span></li>
+        </ul>
+        <div class="ind_search_form">
+            <input type="text"/><button type="button">开始找房</button>
+        </div>
+    </div>
+    <p class="ind_1_text">今日新增酒店民宿信息4条  今晚特价酒店房还有5间</p>
+</section>
+<section class="ind_2">
+    <div class="container">
+        <ul class="clearfloat">
+            <li>
+                <span></span>
+                <h2>找酒店</h2>
+                <p>真实酒店房源，涵盖港澳优质房源，爱游承诺真实品质保障</p>
+            </li>
+            <li>
+                <span></span>
+                <h2>地理位置</h2>
+                <p>紧邻地铁、市区，交通出行更方便说走就走</p>
+            </li>
+            <li>
+                <span></span>
+                <h2>精确找房</h2>
+                <p>为您精准定位，另配电子地图</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="ind_3">
+    <div class="container">
+        <h2 class="ind_3_title">爱游旅途</h2>
+        <p>集港澳民宿、酒店功能于一体，每天发布海量房源，更有特价退出，让您随时随地任性找房！在线咨询让您放心，消息动态推送让您省心，服务承诺让您安心，找港澳酒店，快来爱游旅途！</p>
+    </div>
+</section>
+<!--footer-->
+<footer class="footer"></footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/main.js"></script>
+<script>
+    isLogin();
+    $(".footer").load("footer.html");
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/mycss.css"/>
+</head>
+<body>
+<!--header-->
+<header class="header"></header>
+<!--主体内容-->
+<div class="container">
+    <!--面包屑导航-->
+    <div class="breadcrumb">
+        <a href="index.html">爱游旅途首页</a><a href="">港澳酒店</a>
+    </div>
+    <!--选择分类-->
+    <div class="types">
+        <div class="types_tab">
+            <ul class="clearfloat">
+                <li class="current">全部住房</li>
+                <li>民宿</li>
+            </ul>
+        </div>
+        <div class="types_select">
+            <dl class="clearfloat">
+                <dt>区域：</dt>
+                <dd>
+                    <div class="option_list" id="area">
+                        <a href="" class="current">不限</a>
+                    </div>
+                    <div class="option_list sub_option_list" id="subArea"></div>
+                </dd>
+            </dl>
+            <dl class="clearfloat">
+                <dt>价格：</dt>
+                <dd>
+                    <div class="option_list" id="price">
+                        <a href="" class="current" data-min="0" data-max="20000">不限</a>
+                        <a href="" data-min="0" data-max="1500">1500元以下</a>
+                        <a href="" data-min="1500" data-max="2500">1500-2500元</a>
+                        <a href="" data-min="2500" data-max="3500">2500-3500元</a>
+                        <a href="" data-min="3500" data-max="4500">3500-4500元</a>
+                        <a href="" data-min="4500" data-max="5500">4500-5500元</a>
+                        <a href="" data-min="5500" data-max="6500">5500-6500元</a>
+                        <a href="" data-min="6500" data-max="20000">6500元以上</a>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+        <div class="types_now"></div>
+    </div>
+
+    <!-- 列表-->
+    <div class="list_box">
+        <div class="zf_list_head">
+            <p>共找到 <strong></strong> 套匹配房源</p>
+        </div>
+        <div class="zf_list">
+            <ul>
+                <!--<li class="clearfloat">
+                    <a href=""><img src="img-house/01-01.jpg" alt=""/></a>
+                    <div class="information">
+                        <h2><a href="">海淀万寿路西街小两居 全南向采光好 精装修</a></h2>
+                        <p><span>两室</span><span>整租</span><span>65㎡</span><span>2/6层</span><span>朝向：南</span></p>
+                        <p>万寿路西街11号院</p>
+                    </div>
+                    <span><strong>5200</strong>元/月</span>
+                </li>
+                <li class="clearfloat">
+                    <a href=""><img src="img-house/01-01.jpg" alt=""/></a>
+                    <div class="information">
+                        <h2><a href="">海淀万寿路西街小两居 全南向采光好 精装修</a></h2>
+                        <p><span>两室</span><span>整租</span><span>65㎡</span><span>2/6层</span><span>朝向：南</span></p>
+                        <p>万寿路西街11号院</p>
+                    </div>
+                    <span><strong>5200</strong>元/月</span>
+                </li>
+                <li class="clearfloat">
+                    <a href=""><img src="img-house/01-01.jpg" alt=""/></a>
+                    <div class="information">
+                        <h2><a href="">海淀万寿路西街小两居 全南向采光好 精装修</a></h2>
+                        <p><span>两室</span><span>整租</span><span>65㎡</span><span>2/6层</span><span>朝向：南</span></p>
+                        <p>万寿路西街11号院</p>
+                    </div>
+                    <span><strong>5200</strong>元/月</span>
+                </li>
+                <li class="clearfloat">
+                    <a href=""><img src="img-house/01-01.jpg" alt=""/></a>
+                    <div class="information">
+                        <h2><a href="">海淀万寿路西街小两居 全南向采光好 精装修</a></h2>
+                        <p><span>两室</span><span>整租</span><span>65㎡</span><span>2/6层</span><span>朝向：南</span></p>
+                        <p>万寿路西街11号院</p>
+                    </div>
+                    <span><strong>5200</strong>元/月</span>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+    <!-- 分页导航-->
+    <div class="pages">
+        <!--<a href="" class="disabled">上一页</a>
+        <a href="" class="cur">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">下一页</a>-->
+    </div>
+</div>
+
+<!--footer-->
+<footer class="footer"></footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/main.js"></script>
+<script src="js/zf_list.js"></script>
+</body>
+</html>
